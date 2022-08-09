@@ -6,4 +6,3 @@
 [x] Initialise repo and push
 [ ] Host on Vercel
 [ ] Add assets
-[ ] 
