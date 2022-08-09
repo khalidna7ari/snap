@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-const Nav = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isFeaturesSelected, setIsFeaturesSelected] = useState(false);
-  const [isCompanySelected, setIsCompanySelected] = useState(false);
+const Nav: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+  const [isFeaturesSelected, setIsFeaturesSelected] = useState<boolean>(false);
+  const [isCompanySelected, setIsCompanySelected] = useState<boolean>(false);
   return (
     <div className="relative">
       {/* Mobile Nav */}
