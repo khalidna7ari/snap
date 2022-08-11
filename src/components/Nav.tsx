@@ -8,12 +8,12 @@ const Nav: React.FC = () => {
     <div className="relative">
       {/* Mobile Nav */}
       <nav className="flex justify-between items-center py-4 px-2  md:hidden">
-        <img alt="snap logo" src="/src/assets/Logo.svg" />
+        <img alt="snap logo" src="/Logo.svg" />
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="cursor-pointer transition-all ease-in-out duration-500 "
         >
-          <img alt="hamburger menu" src="/src/assets/MenuIcon.svg" />
+          <img alt="hamburger menu" src="/MenuIcon.svg" />
         </button>
       </nav>
 
@@ -27,7 +27,7 @@ const Nav: React.FC = () => {
                 className="ml-auto block"
               >
                 <img
-                  src="/src/assets/CloseMenuIcon.svg"
+                  src="/CloseMenuIcon.svg"
                   alt="close menu"
                   className=" cursor-pointer"
                 />
