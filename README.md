@@ -7,5 +7,11 @@
 [x] Host on Vercel
 [x] Add assets
 [x] Create Nav component - Create Dropdown
-[ ] Create Hero component
-[ ] Project Completion
+[x] Create Hero component
+[x] Project Completion
+
+## Things to fix/improve on
+
+[ ] Add animations to nav
+[ ] Fix broken images on build
+[ ] Vite configuration for svg
