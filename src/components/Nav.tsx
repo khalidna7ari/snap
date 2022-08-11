@@ -40,39 +40,27 @@ const Nav: React.FC = () => {
                     onClick={() => setIsFeaturesSelected(!isFeaturesSelected)}
                   >
                     {isFeaturesSelected ? (
-                      <img src="/src/assets/ArraowUpIcon.svg" />
+                      <img src="/ArraowUpIcon.svg" />
                     ) : (
-                      <img src="/src/assets/ArrowDownIcon.svg" />
+                      <img src="/ArrowDownIcon.svg" />
                     )}
                   </button>
                   {isFeaturesSelected && (
                     <ul className="space-y-2 pl-8 mt-3 cursor-pointer">
                       <li className="flex items-center gap-2">
-                        <img
-                          src="/src/assets/TodoIcon.svg"
-                          alt="to-do list icon"
-                        />{" "}
-                        Todo List
+                        <img src="/TodoIcon.svg" alt="to-do list icon" /> Todo
+                        List
                       </li>
                       <li className="flex items-center gap-2">
-                        <img
-                          src="/src/assets/CalendarIcon.svg"
-                          alt="calendar icon"
-                        />{" "}
+                        <img src="/CalendarIcon.svg" alt="calendar icon" />{" "}
                         Calendar
                       </li>
                       <li className="flex items-center gap-2">
-                        <img
-                          src="/src/assets/RemindersIcon.svg"
-                          alt="reminders icon"
-                        />{" "}
+                        <img src="/RemindersIcon.svg" alt="reminders icon" />{" "}
                         Reminders
                       </li>
                       <li className="flex items-center gap-2">
-                        <img
-                          src="/src/assets/PlanningIcon.svg"
-                          alt="planning icon"
-                        />{" "}
+                        <img src="/PlanningIcon.svg" alt="planning icon" />{" "}
                         Planning
                       </li>
                     </ul>
@@ -84,9 +72,9 @@ const Nav: React.FC = () => {
                     onClick={() => setIsCompanySelected(!isCompanySelected)}
                   >
                     {isCompanySelected ? (
-                      <img src="/src/assets/ArraowUpIcon.svg" />
+                      <img src="/ArraowUpIcon.svg" />
                     ) : (
-                      <img src="/src/assets/ArrowDownIcon.svg" />
+                      <img src="/ArrowDownIcon.svg" />
                     )}
                   </button>
                   {isCompanySelected && (
@@ -115,7 +103,7 @@ const Nav: React.FC = () => {
       <div className="md:block py-4 px-6 hidden">
         <nav className=" flex justify-between items-center">
           <div className="flex gap-16">
-            <img alt="snap logo" src="/src/assets/Logo.svg" />
+            <img alt="snap logo" src="/Logo.svg" />
             <ul className="flex gap-6 cursor-pointer">
               <li
                 className="relative group flex items-center gap-2"
@@ -123,39 +111,27 @@ const Nav: React.FC = () => {
               >
                 Features
                 <img
-                  src="/src/assets/ArrowDownIcon.svg"
+                  src="/ArrowDownIcon.svg"
                   onMouseOver={(e) =>
-                    (e.currentTarget.src = "/src/assets/ArraowUpIcon.svg")
+                    (e.currentTarget.src = "/ArraowUpIcon.svg")
                   }
                   onMouseOut={(e) =>
-                    (e.currentTarget.src = "/src/assets/ArrowDownIcon.svg")
+                    (e.currentTarget.src = "/ArrowDownIcon.svg")
                   }
                 />
                 <ul className="absolute p-4 bg-white shadow-lg w-40 rounded-lg hidden group-hover:block -inset-x-20 space-y-2 top-7">
                   <li className="flex items-center gap-2">
-                    <img src="/src/assets/TodoIcon.svg" alt="to-do list icon" />{" "}
-                    Todo List
+                    <img src="/TodoIcon.svg" alt="to-do list icon" /> Todo List
                   </li>
                   <li className="flex items-center gap-2">
-                    <img
-                      src="/src/assets/CalendarIcon.svg"
-                      alt="calendar icon"
-                    />{" "}
-                    Calendar
+                    <img src="/CalendarIcon.svg" alt="calendar icon" /> Calendar
                   </li>
                   <li className="flex items-center gap-2">
-                    <img
-                      src="/src/assets/RemindersIcon.svg"
-                      alt="reminders icon"
-                    />{" "}
+                    <img src="/RemindersIcon.svg" alt="reminders icon" />{" "}
                     Reminders
                   </li>
                   <li className="flex items-center gap-2">
-                    <img
-                      src="/src/assets/PlanningIcon.svg"
-                      alt="planning icon"
-                    />{" "}
-                    Planning
+                    <img src="/PlanningIcon.svg" alt="planning icon" /> Planning
                   </li>
                 </ul>
               </li>
@@ -165,9 +141,9 @@ const Nav: React.FC = () => {
               >
                 Company{" "}
                 {isCompanySelected ? (
-                  <img src="/src/assets/ArraowUpIcon.svg" />
+                  <img src="/ArraowUpIcon.svg" />
                 ) : (
-                  <img src="/src/assets/ArrowDownIcon.svg" />
+                  <img src="/ArrowDownIcon.svg" />
                 )}
                 <ul className="absolute p-4 bg-white shadow-lg w-30 rounded-lg hidden group-hover:block -right-4 space-y-2 top-7">
                   <li className="flex items-center gap-2">History</li>
