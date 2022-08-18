@@ -13,5 +13,5 @@
 ## Things to fix/improve on
 
 [ ] Add animations to nav
-[ ] Fix broken images on build
-[ ] Vite configuration for svg
+[x] Fix broken images on build
+~~[ ] Vite configuration for svg~~

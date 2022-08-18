@@ -1,6 +1,6 @@
 const Hero: React.FC = () => {
   return (
-    <header className="md:flex md:flex-row-reverse md:px-6 md:gap-24 md:full ">
+    <header className="md:flex md:flex-row-reverse md:px-6 md:gap-24 md:full md:flex-1 md:items-center flex flex-col justify-center flex-1">
       <div>
         <img
           src="/HeroMobileImage.png"
